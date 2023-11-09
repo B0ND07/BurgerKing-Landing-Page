@@ -37,16 +37,19 @@
     height: 52px;
     background-color: #f5ebdc;
     box-shadow: 0 5px 5px -5px #c7c3bd;
+    width: 100%;
 }
 .title{
     width: 40%;
 }
 .photo{
-    width: 60%;
+    /* width: 60%; */
+    /* padding-right: 50px; */
 }
 .photo img{
     height: 383px;
     width: 100%;
+    /* margin-left: -60px;  */
 }
 .heading-1{
     font-family: Flame-Bold;
@@ -89,12 +92,12 @@
     font-weight: bold;
 }
 .botttom-image{
-    width: 50%;
+    width: 100%;
     margin-left: 0px;
 }
 .bottom-title{
-    margin-top: 120px;
-    width: 50%;
+    margin-top: 100px;
+    /* width: 50%; */
     font-family: Flame-Bold;
     color: rgb(80, 35, 20);
 }
