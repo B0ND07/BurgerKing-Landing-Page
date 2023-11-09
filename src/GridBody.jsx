@@ -17,7 +17,7 @@ function GridBody() {
         <Card.Text>
         For thoseour BK® combo and get half Fries, half Rings. You can still choose all Fries or all Rings, too! Because having it your way rules.
         </Card.Text>
-        <button>Order Now</button>
+        <Button>Order Now</Button>
         </Card.Body>
         </Card>
         </Col>

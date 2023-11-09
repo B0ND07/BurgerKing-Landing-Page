@@ -2,6 +2,7 @@ import logo from "./pngw.png"
 import { FaLocationDot } from 'react-icons/fa6';
 import {MdShoppingBag} from 'react-icons/md';
 import {IoReorderThreeOutline} from 'react-icons/io5';
+import Button from 'react-bootstrap/Button';
 
 
 import "./App.css"
@@ -16,8 +17,8 @@ function Header() {
       <img className="logo-img" src={logo} alt="not found"/>
       </div>
       <div className="button-navg" style={{float:"right"}}>
-      <button>Sign Up/Sign In</button>
-      <button style={{backgroundColor:"#502314",width:"75px"}} className="button-nav"><MdShoppingBag/> $0.00</button>
+      <Button>Sign Up/Sign In</Button>
+      <Button style={{backgroundColor:"#502314",width:"75px"}} className="button-nav"><MdShoppingBag/> $0.00</Button>
       </div>
     </div>
     <div style={{marginTop:"-40px",paddingLeft:"16px"}}>

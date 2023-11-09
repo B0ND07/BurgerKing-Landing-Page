@@ -5,6 +5,7 @@ import { GiScooter } from 'react-icons/gi';
 import "./App.css"
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
+import Button from 'react-bootstrap/esm/Button';
 
 function Body() {
   return (
@@ -23,8 +24,8 @@ function Body() {
           <Col>
           <h1 className='heading-1'>Start your BK<sup>®</sup>order.</h1>
             <div className='button-body'>
-            <button className='button1'><MdShoppingBag/> Order Pickup</button><br /><br />
-            <button className='button2'><GiScooter/> Order Delivery</button>
+            <Button className='button1'><MdShoppingBag/> Order Pickup</Button><br /><br />
+            <Button className='button2'><GiScooter/> Order Delivery</Button>
             </div>
 
 
