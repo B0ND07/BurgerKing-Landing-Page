@@ -1,6 +1,26 @@
+@font-face {
+    font-family: 'FlameBold';
+    src: local('FlameBold'), url(./fonts/FlameBold.otf) format('opentype');
+}
+@font-face {
+    font-family: 'FlameRegular';
+    src: local('FlameRegular'), url(./fonts/FlameRegular.otf) format('opentype');
+}
+/* *{
+    font-family: FlameRegular;
+} */
+
 .navabar{
     background-color: #f5ebdc;
     height: 52px;
+    
+   
+    
+}
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    z-index: 20;
 }
 .logo-nav{
     height: 45px;
@@ -37,7 +57,7 @@
     height: 52px;
     background-color: #f5ebdc;
     box-shadow: 0 5px 5px -5px #c7c3bd;
-    width: 100%;
+    /* width: 100%; */
 }
 .title{
     width: 40%;
@@ -48,13 +68,13 @@
 }
 .photo img{
     height: 383px;
-    width: 100%;
+    width: 650px;
     /* margin-left: -60px;  */
 }
 .heading-1{
-    font-family: Flame-Bold;
+    font-family: FlameBold;
     font-size: 70px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: rgb(80, 35, 20);
 }
 .button1{
@@ -117,7 +137,10 @@
 .botttom-image img{
 transform: rotate(360deg);
 }
-
+.title-query{
+    margin-top: 40px;
+    width: 40%;
+}
 
 @media screen and (max-width:765px){
     .cart{

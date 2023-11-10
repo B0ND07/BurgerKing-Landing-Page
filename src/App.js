@@ -9,7 +9,7 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App" style={{backgroundColor:"#f5ebdc"}}>
-      <Header /> 
+      <Header/> 
       <Body/>
       <GridBody/>
       <Bottom/>
