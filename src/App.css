@@ -114,3 +114,25 @@
     padding: 10px;
     font-size: 12px;
 }
+.botttom-image img{
+transform: rotate(360deg);
+}
+
+
+@media screen and (max-width:765px){
+    .cart{
+        display: none;
+    }
+    .bottom-title{
+        margin-top: 0px;
+    }
+    .loc-query{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:765px)and (min-width:445px) {
+    .title-query{
+        margin-left: 80px;
+}
+}

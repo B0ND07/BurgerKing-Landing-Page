@@ -28,7 +28,7 @@ function Bottom() {
       <Row xs={1} md={2} lg={2} className="g-4">
           <Col>
           <div className='botttom-image'>
-            <img src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/57382e9feb53d08237fa988a570efdff1602d6ff-912x1267.png?w=650&q=80&fit=max&auto=format" width="60%" style={{transform: "rotate(360deg)",marginLeft:"120px"}}></img>
+            <img src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/57382e9feb53d08237fa988a570efdff1602d6ff-912x1267.png?w=650&q=80&fit=max&auto=format" width="60%" style={{marginLeft:"120px"}}></img>
         </div>
           </Col>
           <Col>

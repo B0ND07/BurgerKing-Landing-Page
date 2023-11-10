@@ -15,7 +15,8 @@ function GridBody() {
         <Card.Body>
         <Card.Title>Get ready for the snap</Card.Title>
         <Card.Text>
-        For thoseour BK® combo and get half Fries, half Rings. You can still choose all Fries or all Rings, too! Because having it your way rules.
+        Some quick example text to build on the card title and make up the
+          bulk of the card's content.
         </Card.Text>
         <Button>Order Now</Button>
         </Card.Body>
@@ -56,7 +57,8 @@ function GridBody() {
         <Card.Body>
         <Card.Title>Pick your BK® Wrap Pack</Card.Title>
         <Card.Text>
-        These bundles BK®. The King of Wrap or the Ultimate Wrap Party. Available for pickup or delivery—find ‘em only in the BK® App!
+        Some quick example text to build on the card title and make up the
+          bulk of the card's content.
         </Card.Text>
         <Button variant="primary">Order Now</Button>
         </Card.Body>

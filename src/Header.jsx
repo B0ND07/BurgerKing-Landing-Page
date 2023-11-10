@@ -18,7 +18,7 @@ function Header() {
       </div>
       <div className="button-navg" style={{float:"right"}}>
       <Button>Sign Up/Sign In</Button>
-      <Button style={{backgroundColor:"#502314",width:"75px"}} className="button-nav"><MdShoppingBag/> $0.00</Button>
+      <Button style={{backgroundColor:"#502314",width:"75px"}} className="button-nav cart"><MdShoppingBag/> $0.00</Button>
       </div>
     </div>
     <div style={{marginTop:"-40px",paddingLeft:"16px"}}>
@@ -26,9 +26,9 @@ function Header() {
       </div>
     <div className="availability" style={{display:"flex",flexDirection:"row"}}>
     
-      <div style={{marginTop:"12px",paddingLeft:"16px"}}><FaLocationDot/></div>
+      <div className="loc-query" style={{marginTop:"12px",paddingLeft:"16px"}}><FaLocationDot/></div>
       
-    <p style={{fontFamily:"Flame-Regular",fontSize:"16px",color:"rgb(80, 35, 20)",fontWeight:"bold",paddingTop:"15px",paddingLeft:"8px"}}>For availability <a href="fghy"><span style={{color:"rgb(80, 35, 20)",fontFamily:"sans",fontSize:"13px",fontWeight:"bolder",textDecoration:"underline"}}>Choose location</span></a></p>
+    <p className="loc-query" style={{fontFamily:"Flame-Regular",fontSize:"16px",color:"rgb(80, 35, 20)",fontWeight:"bold",paddingTop:"15px",paddingLeft:"8px"}}>For availability <a href="fghy"><span style={{color:"rgb(80, 35, 20)",fontFamily:"sans",fontSize:"13px",fontWeight:"bolder",textDecoration:"underline"}}>Choose location</span></a></p>
     
     </div>
     </div>
