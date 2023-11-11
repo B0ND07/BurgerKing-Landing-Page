@@ -16,20 +16,19 @@ function Header() {
         <div className="logo-nav">
         <img className="logo-img" src={logo} alt="not found"/>
         </div>
-        <div className="button-navg" style={{float:"right"}}>
-        <Button>Sign Up/Sign In</Button>
-        <Button style={{backgroundColor:"#502314",width:"75px"}} className="button-nav cart"><MdShoppingBag/> $0.00</Button>
+        <div className="button-navg">
+        <Button className="sign-btn">Sign Up/Sign In</Button>
+        <Button className="button-nav"><MdShoppingBag/> $0.00</Button>
         </div>
       </div>
-      <div style={{marginTop:"-40px",paddingLeft:"16px"}}>
+      <div className="nav-menu">
         <IoReorderThreeOutline size={32}/>
         </div>
       <div className="availability">
       
-        <div className="loc-query loc-icon" style={{}}><FaLocationDot/></div>
+        <div className="loc-query"><FaLocationDot/></div>
         <div>
-        
-      <p className="loc-query loc-icon">For availability <a href="fghy"><span className="loc-text">Choose location</span></a></p>
+      <p className="loc-icon">For availability <a href="fghy"><span className="loc-text">Choose location</span></a></p>
       </div>
         </div>
     </div>

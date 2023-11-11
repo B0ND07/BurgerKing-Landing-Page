@@ -4,8 +4,6 @@ import Row from 'react-bootstrap/esm/Row';
 import {
     GooglePlayButton,
     AppStoreButton,
-    AppGalleryButton,
-    ButtonsContainer,
   } from "react-mobile-app-button";
 
 
