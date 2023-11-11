@@ -24,12 +24,12 @@ function Header() {
       <div style={{marginTop:"-40px",paddingLeft:"16px"}}>
         <IoReorderThreeOutline size={32}/>
         </div>
-      <div className="availability" style={{display:"flex",width:"100%"}}>
+      <div className="availability">
       
-        <div className="loc-query" style={{marginTop:"12px",paddingLeft:"16px"}}><FaLocationDot/></div>
+        <div className="loc-query loc-icon" style={{}}><FaLocationDot/></div>
         <div>
         
-      <p className="loc-query" style={{fontFamily:"Flame-Regular",fontSize:"16px",color:"rgb(80, 35, 20)",fontWeight:"bold",paddingTop:"15px",paddingLeft:"8px"}}>For availability <a href="fghy"><span style={{color:"rgb(80, 35, 20)",fontFamily:"sans",fontSize:"13px",fontWeight:"bolder",textDecoration:"underline"}}>Choose location</span></a></p>
+      <p className="loc-query loc-icon">For availability <a href="fghy"><span className="loc-text">Choose location</span></a></p>
       </div>
         </div>
     </div>

@@ -6,7 +6,7 @@ import "./App.css"
 
 function GridBody() {
   return (
-    <div className='container' style={{marginTop:"20px"}}>
+    <div className='container container-card'>
     <Row xs={1} md={2} lg={2} className="g-4">
       
         <Col>
