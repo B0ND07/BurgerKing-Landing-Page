@@ -1,235 +1,235 @@
 /* fonts */
 
 @font-face {
-    font-family: 'FlameBold';
-    src: local('FlameBold'), url(./fonts/FlameBold.otf) format('opentype');
+  font-family: "FlameBold";
+  src: local("FlameBold"), url(./fonts/FlameBold.otf) format("opentype");
 }
 
 @font-face {
-    font-family: 'FlameRegular';
-    src: local('FlameRegular'), url(./fonts/FlameRegular.otf) format('opentype');
+  font-family: "FlameRegular";
+  src: local("FlameRegular"), url(./fonts/FlameRegular.otf) format("opentype");
 }
 
 /* header */
 
-.navabar{
-    background-color: #f5ebdc;
-    height: 52px;
+.navabar {
+  background-color: #f5ebdc;
+  height: 52px;
 }
 
-.sticky-nav{
-    position: sticky;
-    top: 0;
-    z-index: 20;
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 20;
 }
 
-.logo-nav{
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    width: 50px;
-    width: 100%;
+.logo-nav {
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  width: 100%;
 }
 
-.logo-nav img{
-    margin-top: .50%;
+.logo-nav img {
+  margin-top: 0.5%;
 }
 
-.button-nav{
-    height: 30%;
-    margin-top: 1%;
-    background-color:#502314;
-    width:75px;
-    border-radius: 16px;
-    color: white;
-    border: none;
-    height: 34px;
-    font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-weight: bold;
+.button-nav {
+  height: 30%;
+  margin-top: 1%;
+  background-color: #502314;
+  width: 75px;
+  border-radius: 16px;
+  color: white;
+  border: none;
+  height: 34px;
+  font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-weight: bold;
 }
 
-.button-navg{
-    display: flex;
-    margin-top: .50%;
-    margin-top: -36px;
-    align-items: center;
-    gap: 10px; 
-    float: right;
- }
-
-.sign-btn{
-    border-radius: 16px;
-    background-color: #d62300;
-    color: white;
-    border: none;
-    height: 34px;
-    font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-weight: bold;
+.button-navg {
+  display: flex;
+  margin-top: 0.5%;
+  margin-top: -36px;
+  align-items: center;
+  gap: 10px;
+  float: right;
 }
 
-.availability{
-    height: 52px;
-    background-color: #f5ebdc;
-    box-shadow: 0 5px 5px -5px #c7c3bd;
-    display:flex;
-    width:100%;
+.sign-btn {
+  border-radius: 16px;
+  background-color: #d62300;
+  color: white;
+  border: none;
+  height: 34px;
+  font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-weight: bold;
 }
 
-.loc-query{
-    margin-top:22px;
-    padding-left:16px;
+.availability {
+  height: 52px;
+  background-color: #f5ebdc;
+  box-shadow: 0 5px 5px -5px #c7c3bd;
+  display: flex;
+  width: 100%;
 }
 
-.loc-icon{
-    font-family:"Flame-Regular";
-    font-size:16px;
-    color:rgb(80, 35, 20);
-    font-weight:bold;
-    padding-top:15px;
-    margin-top:10px;
-    padding-left:6px;
-    
+.loc-query {
+  margin-top: 22px;
+  padding-left: 16px;
 }
 
-.loc-text{
-    color:rgb(80, 35, 20);
-    font-family:sans;
-    font-size:13px;
-    font-weight:bolder;
-    text-decoration:underline;
+.loc-icon {
+  font-family: "Flame-Regular";
+  font-size: 16px;
+  color: rgb(80, 35, 20);
+  font-weight: bold;
+  padding-top: 15px;
+  margin-top: 10px;
+  padding-left: 6px;
 }
 
-.nav-menu{
-    margin-top:-40px;
-    padding-left:16px;
+.loc-text {
+  color: rgb(80, 35, 20);
+  font-family: sans;
+  font-size: 13px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.nav-menu {
+  margin-top: -40px;
+  padding-left: 16px;
 }
 
 /* body */
 
-.photo img{
-    height: 383px;
-    max-width: 100%;
+.photo img {
+  height: 383px;
+  max-width: 100%;
 }
 
-.heading-1{
-    font-family: FlameBold;
-    font-size: 70px;
-    color: rgb(80, 35, 20);
+.heading-1 {
+  font-family: FlameBold;
+  font-size: 70px;
+  color: rgb(80, 35, 20);
 }
 
-.button1{
-    border-radius: 28px;
-    background-color: #d62300;
-    color: white;
-    border: none;
-    width: 310px;
-    height: 54px;
-    font: 18px Flame-Regular;
-    font-weight: bold;
+.button1 {
+  border-radius: 28px;
+  background-color: #d62300;
+  color: white;
+  border: none;
+  width: 310px;
+  height: 54px;
+  font: 18px Flame-Regular;
+  font-weight: bold;
 }
 
-.button2{
-    border-radius: 28px;
-    color: #d62300;
-    background-color: #f5ebdc;
-    border-color: #d62300;
-    width: 310px;
-    height: 54px;
-    font: 18px Flame-Regular;
-    font-weight: bold;
+.button2 {
+  border-radius: 28px;
+  color: #d62300;
+  background-color: #f5ebdc;
+  border-color: #d62300;
+  width: 310px;
+  height: 54px;
+  font: 18px Flame-Regular;
+  font-weight: bold;
 }
 
-.title-query{
-    padding-top: 30px;
-    padding-left: 40px;
+.title-query {
+  padding-top: 30px;
+  padding-left: 40px;
 }
 
 /* grid */
 
-.card-grid{
-    border-radius: 28px;
-    overflow: hidden;
+.card-grid {
+  border-radius: 28px;
+  overflow: hidden;
 }
 
-.card-grid button{
-    border-radius: 28px;
-    color: #d62300;
-    background-color: #ffff;
-    border-color: #d62300;
-    width: 150px;
-    height: 54px;
-    font: 18px Flame-Regular;
-    font-weight: bold;
+.card-grid button {
+  border-radius: 28px;
+  color: #d62300;
+  background-color: #ffff;
+  border-color: #d62300;
+  width: 150px;
+  height: 54px;
+  font: 18px Flame-Regular;
+  font-weight: bold;
 }
 
-.container-card{
-    margin-top:20px;
+.container-card {
+  margin-top: 20px;
 }
 
 /* bottom section */
 
-.botttom-image{
-    width: 100%;
-    margin-left: 0px;
+.botttom-image {
+  width: 100%;
+  margin-left: 0px;
 }
 
-.botttom-image img{
-    margin-left:120px;
-    transform: rotate(360deg);
+.botttom-image img {
+  margin-left: 120px;
+  transform: rotate(360deg);
 }
 
-.bottom-title{
-    margin-top: 100px;
-    font-family: sans;
-    color: rgb(80, 35, 20);
+.bottom-title {
+  margin-top: 100px;
+  font-family: sans;
+  color: rgb(80, 35, 20);
 }
 
-.bottom-title h1{
-    font-size: 50px;
-    font-family: FlameBold;
+.bottom-title h1 {
+  font-size: 50px;
+  font-family: FlameBold;
 }
 
-.container-bottom{
-    padding-top:50px;
-    display:flex;
+.container-bottom {
+  padding-top: 50px;
+  display: flex;
 }
 
-.dl-btn{
-    display:flex;
-    gap:20px;
+.dl-btn {
+  display: flex;
+  gap: 20px;
 }
 
 /* footer section */
 
-.footer{
-    width: 100%;
-    height: 50px;
-    background-color: #502314;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 12px;
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: #502314;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
 }
 
 /* media queries */
 
-@media screen and (max-width:765px){
-    .button-nav{
-        display: none;
-    }
-    .bottom-title{
-        margin-top: 0px;
-    }
-    .availability{
-        display: none;
-    }
-    
+@media screen and (max-width: 765px) {
+  .button-nav {
+    display: none;
+  }
+  .bottom-title {
+    margin-top: 0px;
+  }
+  .availability {
+    display: none;
+  }
 }
-@media screen and (max-width:765px)and (min-width:445px) {
-    .title-query{
-        margin-left: 60px;
-    }
-    .photo img{
-        margin-left: 60px;
-    }
+@media screen and (max-width: 765px) and (min-width: 445px) {
+  .title-query {
+    margin-left: 60px;
+  }
+  .photo img {
+    margin-left: 60px;
+  }
 }
